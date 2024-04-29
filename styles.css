@@ -1,0 +1,15 @@
+.buttonsContainer {
+display: flex;
+background-color: rgb(5, 160, 102);
+border-radius: 5px;
+gap: 20px;
+justify-content: space-evenly;
+margin-top: 1000px;
+margin-left: 200px;
+margin-right: 200px;
+
+}
+
+.rockBtn, .paperBtn, .scissorsBtn {
+    font-size: 30px;
+}
