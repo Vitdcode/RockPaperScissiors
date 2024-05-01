@@ -1,15 +1,64 @@
+body {
+   
+  
+
+background-color: rgb(6, 198, 126);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .buttonsContainer {
 display: flex;
 background-color: rgb(5, 160, 102);
 border-radius: 5px;
-gap: 20px;
 justify-content: space-evenly;
-margin-top: 1000px;
+height: 50px;
 margin-left: 200px;
 margin-right: 200px;
 
 }
 
+
+
 .rockBtn, .paperBtn, .scissorsBtn {
     font-size: 30px;
+    border-radius: 10px;
 }
+
+.scoreContainer {
+    
+    gap: 30px;
+    gap: 30px;
+    margin-top: 300px;
+    margin-bottom: 30px;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgb(5, 160, 102);
+}
+
+.playerComputerScoreContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+p {
+    
+    display: flex;
+    text-align: center;
+    font-size: 36px;
+    background-color: rgb(7, 236, 150);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+    
+
+}
+
